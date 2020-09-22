@@ -56,6 +56,18 @@ fun main() {
 
     // Comparison operators (==, !=, <, >, <=, >=)
     val isEqual = 5 == 5
-    println("isEqual is $isEqual")
+    //println("isEqual is $isEqual")
 
+    val isNotEqual = 5 != 5
+//    println("isNotEqual is $isNotEqual")
+
+    // String interpolation
+//    println("is-5greater3 ${-5 > 3}")
+//    println("is5LowerEqual3 ${5 < 3}")
+//    println("is5GreaterEqual5 ${5 >= 5}")
+
+    // Assignment operators (+=, -=, *=, /=, %=)
+    var myNum = 5
+    myNum += 3
+    println("myNum $myNum")
 }
